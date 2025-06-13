@@ -1,6 +1,6 @@
 # 🧰 Nathan's Toggler
 
-Nathan's Toggler is a friendly Windows utility to quickly toggle **Windows Defender**, control **internet access**, and manage folder-based firewall & Defender exclusions—all from a simple Python GUI.
+Nathan's Toggler is a friendly Windows utility that allows you to toggle quickly **Windows Defender**, control **internet access**, and manage folder-based firewall and Defender exclusions—all from a simple Python GUI.
 
 ---
 
@@ -25,11 +25,11 @@ python Nathans_Toggler.py
 pyinstaller --onefile --windowed --icon=icon3.ico Nathans_Toggler.py
 
 - For advanced users, tools like **UPX** can compress executables, but savings are often modest.
-- Remove unused imports or features to trim further.
+- Remove unused imports or features to refine the code further.
 - If a small file is crucial, distribute the `.py` script and required assets instead.
 
 ### 3. **(Optional) Batch & PowerShell Launchers**
-- Included `.bat` and `.ps1` files help with admin elevation and easy launching if preferred.
+- Included `.bat` and `.ps1` files to help with admin elevation and easy launching if preferred.
 
 ---
 
@@ -62,6 +62,33 @@ python Nathans_Toggler.py
 
 **Q: Is this safe?**  
 A: Yes. The source code is provided, utilizes open-source repositories, and is publicly available for review.
+
+**Q: Is this safe?**
+A: Yes. The source code is provided, utilizes open-source repositories, and is publicly available for review.
+
+**Q: Will this tool harm my computer or files?**
+A: No. The tool is designed to automate system tasks safely and only makes changes you explicitly request. All changes are documented and can be reversed.
+
+**Q: Is my data private?**
+A: Yes. The tool does not collect or transmit your personal data. All actions are performed locally on your machine.
+
+**Q: Do I need to pay for this?**
+A: No. This project is open-source and available for unrestricted use. You can donate to my PayPal if you would like. 
+
+**Q: Can I suggest features or report bugs?**
+A: Absolutely! Contributions, feedback, and issue reports are welcome. Please use the Issues section on GitHub.
+
+**Q: What operating systems are supported?**
+A: Currently, this tool is developed for Windows operating systems. Compatibility with other systems can be added through community updates.
+
+**Q: How do I uninstall or remove changes made by the tool?**
+A: You can reverse firewall and Defender exclusions from within the tool or manually remove rules via Windows settings. Detailed instructions are available in the documentation.
+
+**Q: Who can I contact for help?**
+A: For support, open an issue on GitHub or use the contact information in the repository.
+
+**Q: How do I update to the latest version?**
+A: Simply download the newest release from GitHub and follow the update instructions in the README.
 
 ---
 
