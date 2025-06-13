@@ -20,6 +20,38 @@ A powerful, beginner-friendly Windows tool to toggle **Windows Defender**, **Int
 
 ---
 
+---
+
+## ⚡️ Quick Install
+
+1. **Install Python (3.8 or newer):**  
+   Download from [python.org](https://www.python.org/downloads/).  
+   _Make sure to check “Add Python to PATH” during installation!_
+
+2. **Install required Python packages:**  
+   Open a Command Prompt or PowerShell window and run:
+pip install pygame pillow playsound
+
+3. **Get the program files:**  
+- Download this repository as a ZIP and extract it,  
+  **OR** clone with Git:
+  ```
+  git clone https://github.com/Nathan398/nathans-toggler.git
+  cd nathans-toggler
+  ```
+
+4. **Run the program:**  
+Double-click `Nathans_Toggler.py`  
+_Or_ run from terminal:
+python Nathans_Toggler.py
+
+**Note:**  
+- The app will prompt for administrator access when needed.  
+- Your adapter name is only asked for once and remembered for future sessions.
+- If you want to compile to an `.exe`, see the section “Compiling to EXE” below (if you want to add that).
+
+---
+
 ## 🚀 Setup
 
 1. **Install Python:**  
